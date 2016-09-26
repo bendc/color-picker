@@ -61,7 +61,7 @@
       let hex = rgb[key].toString(16);
       if (hex.length < 2) hex = `0${hex}`;
       return str + hex;
-    }, "#").toUpperCase();
+    }, "").toUpperCase();
 
   const toRGB = hsb => {
     const h = Number(hsb.h) / 360;
