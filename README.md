@@ -18,7 +18,7 @@ const picker = document.querySelector("color-picker");
 
 picker.addEventListener("color-change", () => {
   const { state } = picker;
-	console.log(state); // => object containing the current rgb, hsb and hex values
+  console.log(state); // => object containing the current rgb, hsb and hex values
 });
 ```
 
